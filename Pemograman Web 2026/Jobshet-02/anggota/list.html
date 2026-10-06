@@ -9,6 +9,10 @@
 <body>
 <header>
     <h1>SIMPUS-Mini</h1>
+
+    <!-- Tombol hamburger untuk menu navigasi pada perangkat mobile -->
+    <button type="button" id="nav-toggle-btn" class="nav-toggle-label" aria-label="Menu">&#9776;</button>
+
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
     <nav>
@@ -25,7 +29,16 @@
 <main>
     <section>
         <h2>Daftar Anggota</h2>
-        
+
+    <!--Kotak pencarian anggota-->
+    <div class="search-box" style="margin-bottom: 15px;">
+            <label for="search-input">Cari Data: </label>
+            <input type="text" id="search-input" placeholder="Ketik nama/alamat...">
+        </div>
+
+        <!--indikator data -->
+        <p id="loading-indicator" style="display:none; color: blue;">Memuat data...</p>
+
     <div class="table-responsive">
 <table>
     <thead>
@@ -38,52 +51,18 @@
             <th>Aksi</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td>A001</td>
-            <td>Siti Aminah</td>
-            <td>Malang</td>
-            <td>0812xxxx</td>
-            <td></td>
-            <td>
-                <button type="button">Edit</button>
-                <button type="button">Hapus</button>
-            </td>
-        </tr>
-        <tr>
-            <td>A002</td>
-            <td>Budi Santoso</td>
-            <td>Batu</td>
-            <td>0813xxxx</td>
-            <td></td>
-            <td>
-                <button type="button">Edit</button>
-                <button type="button">Hapus</button>
-            </td>
-        </tr>
-        <!-- Tugas: Tambah kolom baru "Jenis Kelamin". -->
-        <tr>
-            <td>A003</td>
-            <td>Rina Wijaya</td>
-            <td>Malang</td>
-            <td>0814xxxx</td>
-            <td>Perempuan</td>
-            <td>
-                <button type="button">Edit</button>
-                <button type="button">Hapus</button>
-            </td>
-        </tr>
-        <tr>
-            <td>A004</td>
-            <td>Agus Prasetyo</td>
-            <td>Malang</td>
-            <td>0815xxxx</td>
-            <td>Laki-laki</td>
-            <td>
-                <button type="button">Edit</button>
-                <button type="button">Hapus</button>
-            </td>
-        </tr>
-    </tbody>
+    <tbody></tbody>
 </table>
 </div>
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 3</p>
+</footer>
+
+<!-- Script JS dipanggil paling bawah di dalam body -->
+<script src="../assets/js/app.js"></script>
+<script src="../assets/js/anggota.js"></script>
+
+</body>
+</html>

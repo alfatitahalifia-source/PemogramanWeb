@@ -23,29 +23,44 @@
         </ul>
     </nav>
 </header>
-<form>  
-    <p>
-        <label for="nama">Nama:</label><br>
-        <input type="text" id="nama" name="nama" required><br>
-    </p>
-    <p>
-        <label for="no_anggota">No. Anggota:</label><br>
-        <input type="text" id="no_anggota" name="no_anggota" required><br>
-    </p>
-    <p>
-        <label for="alamat">Alamat:</label><br>
-        <input type="text" id="alamat" name="alamat" required><br>
-    </p>
-    <p>
-        <label for="telepon">Telepon:</label><br>
-        <input type="text" id="telepon" name="telepon" required><br>
-    </p>
-    <!-- Tugas: Tambah input untuk "Email". -->
-    <p>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-    </p>
-    <p>
-        <button type="submit">Simpan</button>
-    </p>
-</form>
+<main>
+    <section>
+        <h2>Tambah Anggota</h2>
+
+        <!-- Formulir untuk menambahkan anggota baru -->    
+<form id="form-tambah" action="#" method="post">
+            <div class="form-group">
+                <label for="no_anggota">No. Anggota</label>
+                <input type="text" id="no_anggota" name="no_anggota" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" required>
+            </div>
+
+            <div class="form-group">
+                <label for="no_hp">No. HP</label>
+                <input type="text" id="no_hp" name="no_hp" required>
+            </div>
+
+            <button type="submit" class="btn">Simpan</button>
+            <a href="list.html" class="btn-secondary">Batal</a>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 3</p>
+</footer>
+
+<!-- Panggil script app.js di paling bawah -->
+<script src="../assets/js/app.js"></script>
+
+</body>
+</html>

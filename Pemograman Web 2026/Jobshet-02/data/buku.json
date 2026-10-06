@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "judul": "Laskar Pelangi",
+    "pengarang": "Andrea Hirata",
+    "tahun": 2005,
+    "stok": 5
+  },
+  {
+    "id": 2,
+    "judul": "Bumi Manusia",
+    "pengarang": "Pramoedya Ananta Toer",
+    "tahun": 1980,
+    "stok": 3
+  },
+  {
+    "id": 3,
+    "judul": "Filosofi Teras",
+    "pengarang": "Henry Manampiring",
+    "tahun": 2018,
+    "stok": 8
+  }
+]

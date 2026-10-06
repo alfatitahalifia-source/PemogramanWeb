@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "no_anggota": "ANG-001",
+    "nama": "Ahmad Subagja",
+    "alamat": "Jl. Mawar No. 12",
+    "no_hp": "081234567890"
+  },
+  {
+    "id": 2,
+    "no_anggota": "ANG-002",
+    "nama": "Siti Aminah",
+    "alamat": "Jl. Melati No. 45",
+    "no_hp": "085678901234"
+  }
+]
